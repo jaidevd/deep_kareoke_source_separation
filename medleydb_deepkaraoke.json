@@ -1,0 +1,915 @@
+{
+    "base_path": "/path/to/medleydb/Audio/",
+    "mixes": [
+        {
+            "mix_path": "MusicDelta_Beatles/MusicDelta_Beatles_MIX.wav",
+            "other_stems": [
+                "MusicDelta_Beatles/MusicDelta_Beatles_STEMS/MusicDelta_Beatles_STEM_01.wav",
+                "MusicDelta_Beatles/MusicDelta_Beatles_STEMS/MusicDelta_Beatles_STEM_02.wav",
+                "MusicDelta_Beatles/MusicDelta_Beatles_STEMS/MusicDelta_Beatles_STEM_03.wav",
+                "MusicDelta_Beatles/MusicDelta_Beatles_STEMS/MusicDelta_Beatles_STEM_04.wav",
+                "MusicDelta_Beatles/MusicDelta_Beatles_STEMS/MusicDelta_Beatles_STEM_05.wav",
+                "MusicDelta_Beatles/MusicDelta_Beatles_STEMS/MusicDelta_Beatles_STEM_06.wav"
+            ],
+            "target_stems": [
+                "MusicDelta_Beatles/MusicDelta_Beatles_STEMS/MusicDelta_Beatles_STEM_08.wav",
+                "MusicDelta_Beatles/MusicDelta_Beatles_STEMS/MusicDelta_Beatles_STEM_07.wav"
+            ]
+        },
+        {
+            "mix_path": "MusicDelta_Punk/MusicDelta_Punk_MIX.wav",
+            "other_stems": [
+                "MusicDelta_Punk/MusicDelta_Punk_STEMS/MusicDelta_Punk_STEM_01.wav",
+                "MusicDelta_Punk/MusicDelta_Punk_STEMS/MusicDelta_Punk_STEM_02.wav",
+                "MusicDelta_Punk/MusicDelta_Punk_STEMS/MusicDelta_Punk_STEM_03.wav"
+            ],
+            "target_stems": [
+                "MusicDelta_Punk/MusicDelta_Punk_STEMS/MusicDelta_Punk_STEM_04.wav"
+            ]
+        },
+        {
+            "mix_path": "PortStWillow_StayEven/PortStWillow_StayEven_MIX.wav",
+            "other_stems": [
+                "PortStWillow_StayEven/PortStWillow_StayEven_STEMS/PortStWillow_StayEven_STEM_09.wav",
+                "PortStWillow_StayEven/PortStWillow_StayEven_STEMS/PortStWillow_StayEven_STEM_03.wav",
+                "PortStWillow_StayEven/PortStWillow_StayEven_STEMS/PortStWillow_StayEven_STEM_02.wav",
+                "PortStWillow_StayEven/PortStWillow_StayEven_STEMS/PortStWillow_StayEven_STEM_10.wav",
+                "PortStWillow_StayEven/PortStWillow_StayEven_STEMS/PortStWillow_StayEven_STEM_04.wav",
+                "PortStWillow_StayEven/PortStWillow_StayEven_STEMS/PortStWillow_StayEven_STEM_05.wav",
+                "PortStWillow_StayEven/PortStWillow_StayEven_STEMS/PortStWillow_StayEven_STEM_06.wav",
+                "PortStWillow_StayEven/PortStWillow_StayEven_STEMS/PortStWillow_StayEven_STEM_07.wav",
+                "PortStWillow_StayEven/PortStWillow_StayEven_STEMS/PortStWillow_StayEven_STEM_11.wav"
+            ],
+            "target_stems": [
+                "PortStWillow_StayEven/PortStWillow_StayEven_STEMS/PortStWillow_StayEven_STEM_08.wav",
+                "PortStWillow_StayEven/PortStWillow_StayEven_STEMS/PortStWillow_StayEven_STEM_01.wav"
+            ]
+        },
+        {
+            "mix_path": "ClaraBerryAndWooldog_AirTraffic/ClaraBerryAndWooldog_AirTraffic_MIX.wav",
+            "other_stems": [
+                "ClaraBerryAndWooldog_AirTraffic/ClaraBerryAndWooldog_AirTraffic_STEMS/ClaraBerryAndWooldog_AirTraffic_STEM_01.wav",
+                "ClaraBerryAndWooldog_AirTraffic/ClaraBerryAndWooldog_AirTraffic_STEMS/ClaraBerryAndWooldog_AirTraffic_STEM_02.wav",
+                "ClaraBerryAndWooldog_AirTraffic/ClaraBerryAndWooldog_AirTraffic_STEMS/ClaraBerryAndWooldog_AirTraffic_STEM_03.wav",
+                "ClaraBerryAndWooldog_AirTraffic/ClaraBerryAndWooldog_AirTraffic_STEMS/ClaraBerryAndWooldog_AirTraffic_STEM_04.wav",
+                "ClaraBerryAndWooldog_AirTraffic/ClaraBerryAndWooldog_AirTraffic_STEMS/ClaraBerryAndWooldog_AirTraffic_STEM_05.wav",
+                "ClaraBerryAndWooldog_AirTraffic/ClaraBerryAndWooldog_AirTraffic_STEMS/ClaraBerryAndWooldog_AirTraffic_STEM_06.wav"
+            ],
+            "target_stems": [
+                "ClaraBerryAndWooldog_AirTraffic/ClaraBerryAndWooldog_AirTraffic_STEMS/ClaraBerryAndWooldog_AirTraffic_STEM_08.wav",
+                "ClaraBerryAndWooldog_AirTraffic/ClaraBerryAndWooldog_AirTraffic_STEMS/ClaraBerryAndWooldog_AirTraffic_STEM_07.wav"
+            ]
+        },
+        {
+            "mix_path": "MusicDelta_Grunge/MusicDelta_Grunge_MIX.wav",
+            "other_stems": [
+                "MusicDelta_Grunge/MusicDelta_Grunge_STEMS/MusicDelta_Grunge_STEM_01.wav",
+                "MusicDelta_Grunge/MusicDelta_Grunge_STEMS/MusicDelta_Grunge_STEM_02.wav",
+                "MusicDelta_Grunge/MusicDelta_Grunge_STEMS/MusicDelta_Grunge_STEM_03.wav",
+                "MusicDelta_Grunge/MusicDelta_Grunge_STEMS/MusicDelta_Grunge_STEM_04.wav"
+            ],
+            "target_stems": [
+                "MusicDelta_Grunge/MusicDelta_Grunge_STEMS/MusicDelta_Grunge_STEM_05.wav"
+            ]
+        },
+        {
+            "mix_path": "Schubert_Erstarrung/Schubert_Erstarrung_MIX.wav",
+            "other_stems": [
+                "Schubert_Erstarrung/Schubert_Erstarrung_STEMS/Schubert_Erstarrung_STEM_02.wav"
+            ],
+            "target_stems": [
+                "Schubert_Erstarrung/Schubert_Erstarrung_STEMS/Schubert_Erstarrung_STEM_01.wav"
+            ]
+        },
+        {
+            "mix_path": "DreamersOfTheGhetto_HeavyLove/DreamersOfTheGhetto_HeavyLove_MIX.wav",
+            "other_stems": [
+                "DreamersOfTheGhetto_HeavyLove/DreamersOfTheGhetto_HeavyLove_STEMS/DreamersOfTheGhetto_HeavyLove_STEM_09.wav",
+                "DreamersOfTheGhetto_HeavyLove/DreamersOfTheGhetto_HeavyLove_STEMS/DreamersOfTheGhetto_HeavyLove_STEM_01.wav",
+                "DreamersOfTheGhetto_HeavyLove/DreamersOfTheGhetto_HeavyLove_STEMS/DreamersOfTheGhetto_HeavyLove_STEM_03.wav",
+                "DreamersOfTheGhetto_HeavyLove/DreamersOfTheGhetto_HeavyLove_STEMS/DreamersOfTheGhetto_HeavyLove_STEM_04.wav",
+                "DreamersOfTheGhetto_HeavyLove/DreamersOfTheGhetto_HeavyLove_STEMS/DreamersOfTheGhetto_HeavyLove_STEM_05.wav",
+                "DreamersOfTheGhetto_HeavyLove/DreamersOfTheGhetto_HeavyLove_STEMS/DreamersOfTheGhetto_HeavyLove_STEM_07.wav"
+            ],
+            "target_stems": [
+                "DreamersOfTheGhetto_HeavyLove/DreamersOfTheGhetto_HeavyLove_STEMS/DreamersOfTheGhetto_HeavyLove_STEM_08.wav",
+                "DreamersOfTheGhetto_HeavyLove/DreamersOfTheGhetto_HeavyLove_STEMS/DreamersOfTheGhetto_HeavyLove_STEM_02.wav",
+                "DreamersOfTheGhetto_HeavyLove/DreamersOfTheGhetto_HeavyLove_STEMS/DreamersOfTheGhetto_HeavyLove_STEM_06.wav"
+            ]
+        },
+        {
+            "mix_path": "Handel_TornamiAVagheggiar/Handel_TornamiAVagheggiar_MIX.wav",
+            "other_stems": [
+                "Handel_TornamiAVagheggiar/Handel_TornamiAVagheggiar_STEMS/Handel_TornamiAVagheggiar_STEM_02.wav"
+            ],
+            "target_stems": [
+                "Handel_TornamiAVagheggiar/Handel_TornamiAVagheggiar_STEMS/Handel_TornamiAVagheggiar_STEM_01.wav"
+            ]
+        },
+        {
+            "mix_path": "CelestialShore_DieForUs/CelestialShore_DieForUs_MIX.wav",
+            "other_stems": [
+                "CelestialShore_DieForUs/CelestialShore_DieForUs_STEMS/CelestialShore_DieForUs_STEM_08.wav",
+                "CelestialShore_DieForUs/CelestialShore_DieForUs_STEMS/CelestialShore_DieForUs_STEM_09.wav",
+                "CelestialShore_DieForUs/CelestialShore_DieForUs_STEMS/CelestialShore_DieForUs_STEM_03.wav",
+                "CelestialShore_DieForUs/CelestialShore_DieForUs_STEMS/CelestialShore_DieForUs_STEM_04.wav",
+                "CelestialShore_DieForUs/CelestialShore_DieForUs_STEMS/CelestialShore_DieForUs_STEM_05.wav",
+                "CelestialShore_DieForUs/CelestialShore_DieForUs_STEMS/CelestialShore_DieForUs_STEM_06.wav",
+                "CelestialShore_DieForUs/CelestialShore_DieForUs_STEMS/CelestialShore_DieForUs_STEM_07.wav"
+            ],
+            "target_stems": [
+                "CelestialShore_DieForUs/CelestialShore_DieForUs_STEMS/CelestialShore_DieForUs_STEM_01.wav",
+                "CelestialShore_DieForUs/CelestialShore_DieForUs_STEMS/CelestialShore_DieForUs_STEM_02.wav"
+            ]
+        },
+        {
+            "mix_path": "MusicDelta_Disco/MusicDelta_Disco_MIX.wav",
+            "other_stems": [
+                "MusicDelta_Disco/MusicDelta_Disco_STEMS/MusicDelta_Disco_STEM_01.wav",
+                "MusicDelta_Disco/MusicDelta_Disco_STEMS/MusicDelta_Disco_STEM_02.wav",
+                "MusicDelta_Disco/MusicDelta_Disco_STEMS/MusicDelta_Disco_STEM_03.wav"
+            ],
+            "target_stems": [
+                "MusicDelta_Disco/MusicDelta_Disco_STEMS/MusicDelta_Disco_STEM_04.wav"
+            ]
+        },
+        {
+            "mix_path": "TheSoSoGlos_Emergency/TheSoSoGlos_Emergency_MIX.wav",
+            "other_stems": [
+                "TheSoSoGlos_Emergency/TheSoSoGlos_Emergency_STEMS/TheSoSoGlos_Emergency_STEM_08.wav",
+                "TheSoSoGlos_Emergency/TheSoSoGlos_Emergency_STEMS/TheSoSoGlos_Emergency_STEM_09.wav",
+                "TheSoSoGlos_Emergency/TheSoSoGlos_Emergency_STEMS/TheSoSoGlos_Emergency_STEM_03.wav",
+                "TheSoSoGlos_Emergency/TheSoSoGlos_Emergency_STEMS/TheSoSoGlos_Emergency_STEM_01.wav",
+                "TheSoSoGlos_Emergency/TheSoSoGlos_Emergency_STEMS/TheSoSoGlos_Emergency_STEM_10.wav",
+                "TheSoSoGlos_Emergency/TheSoSoGlos_Emergency_STEMS/TheSoSoGlos_Emergency_STEM_04.wav",
+                "TheSoSoGlos_Emergency/TheSoSoGlos_Emergency_STEMS/TheSoSoGlos_Emergency_STEM_06.wav",
+                "TheSoSoGlos_Emergency/TheSoSoGlos_Emergency_STEMS/TheSoSoGlos_Emergency_STEM_07.wav"
+            ],
+            "target_stems": [
+                "TheSoSoGlos_Emergency/TheSoSoGlos_Emergency_STEMS/TheSoSoGlos_Emergency_STEM_02.wav",
+                "TheSoSoGlos_Emergency/TheSoSoGlos_Emergency_STEMS/TheSoSoGlos_Emergency_STEM_05.wav"
+            ]
+        },
+        {
+            "mix_path": "MusicDelta_Britpop/MusicDelta_Britpop_MIX.wav",
+            "other_stems": [
+                "MusicDelta_Britpop/MusicDelta_Britpop_STEMS/MusicDelta_Britpop_STEM_01.wav",
+                "MusicDelta_Britpop/MusicDelta_Britpop_STEMS/MusicDelta_Britpop_STEM_02.wav",
+                "MusicDelta_Britpop/MusicDelta_Britpop_STEMS/MusicDelta_Britpop_STEM_03.wav",
+                "MusicDelta_Britpop/MusicDelta_Britpop_STEMS/MusicDelta_Britpop_STEM_04.wav",
+                "MusicDelta_Britpop/MusicDelta_Britpop_STEMS/MusicDelta_Britpop_STEM_05.wav",
+                "MusicDelta_Britpop/MusicDelta_Britpop_STEMS/MusicDelta_Britpop_STEM_06.wav"
+            ],
+            "target_stems": [
+                "MusicDelta_Britpop/MusicDelta_Britpop_STEMS/MusicDelta_Britpop_STEM_08.wav",
+                "MusicDelta_Britpop/MusicDelta_Britpop_STEMS/MusicDelta_Britpop_STEM_07.wav"
+            ]
+        },
+        {
+            "mix_path": "StrandOfOaks_Spacestation/StrandOfOaks_Spacestation_MIX.wav",
+            "other_stems": [
+                "StrandOfOaks_Spacestation/StrandOfOaks_Spacestation_STEMS/StrandOfOaks_Spacestation_STEM_08.wav",
+                "StrandOfOaks_Spacestation/StrandOfOaks_Spacestation_STEMS/StrandOfOaks_Spacestation_STEM_01.wav",
+                "StrandOfOaks_Spacestation/StrandOfOaks_Spacestation_STEMS/StrandOfOaks_Spacestation_STEM_03.wav",
+                "StrandOfOaks_Spacestation/StrandOfOaks_Spacestation_STEMS/StrandOfOaks_Spacestation_STEM_05.wav",
+                "StrandOfOaks_Spacestation/StrandOfOaks_Spacestation_STEMS/StrandOfOaks_Spacestation_STEM_06.wav",
+                "StrandOfOaks_Spacestation/StrandOfOaks_Spacestation_STEMS/StrandOfOaks_Spacestation_STEM_07.wav"
+            ],
+            "target_stems": [
+                "StrandOfOaks_Spacestation/StrandOfOaks_Spacestation_STEMS/StrandOfOaks_Spacestation_STEM_02.wav",
+                "StrandOfOaks_Spacestation/StrandOfOaks_Spacestation_STEMS/StrandOfOaks_Spacestation_STEM_04.wav"
+            ]
+        },
+        {
+            "mix_path": "FamilyBand_Again/FamilyBand_Again_MIX.wav",
+            "other_stems": [
+                "FamilyBand_Again/FamilyBand_Again_STEMS/FamilyBand_Again_STEM_08.wav",
+                "FamilyBand_Again/FamilyBand_Again_STEMS/FamilyBand_Again_STEM_03.wav",
+                "FamilyBand_Again/FamilyBand_Again_STEMS/FamilyBand_Again_STEM_01.wav",
+                "FamilyBand_Again/FamilyBand_Again_STEMS/FamilyBand_Again_STEM_10.wav",
+                "FamilyBand_Again/FamilyBand_Again_STEMS/FamilyBand_Again_STEM_04.wav",
+                "FamilyBand_Again/FamilyBand_Again_STEMS/FamilyBand_Again_STEM_05.wav",
+                "FamilyBand_Again/FamilyBand_Again_STEMS/FamilyBand_Again_STEM_06.wav",
+                "FamilyBand_Again/FamilyBand_Again_STEMS/FamilyBand_Again_STEM_07.wav",
+                "FamilyBand_Again/FamilyBand_Again_STEMS/FamilyBand_Again_STEM_11.wav"
+            ],
+            "target_stems": [
+                "FamilyBand_Again/FamilyBand_Again_STEMS/FamilyBand_Again_STEM_09.wav",
+                "FamilyBand_Again/FamilyBand_Again_STEMS/FamilyBand_Again_STEM_02.wav"
+            ]
+        },
+        {
+            "mix_path": "TheDistricts_Vermont/TheDistricts_Vermont_MIX.wav",
+            "other_stems": [
+                "TheDistricts_Vermont/TheDistricts_Vermont_STEMS/TheDistricts_Vermont_STEM_01.wav",
+                "TheDistricts_Vermont/TheDistricts_Vermont_STEMS/TheDistricts_Vermont_STEM_03.wav",
+                "TheDistricts_Vermont/TheDistricts_Vermont_STEMS/TheDistricts_Vermont_STEM_04.wav",
+                "TheDistricts_Vermont/TheDistricts_Vermont_STEMS/TheDistricts_Vermont_STEM_06.wav",
+                "TheDistricts_Vermont/TheDistricts_Vermont_STEMS/TheDistricts_Vermont_STEM_07.wav"
+            ],
+            "target_stems": [
+                "TheDistricts_Vermont/TheDistricts_Vermont_STEMS/TheDistricts_Vermont_STEM_02.wav",
+                "TheDistricts_Vermont/TheDistricts_Vermont_STEMS/TheDistricts_Vermont_STEM_05.wav"
+            ]
+        },
+        {
+            "mix_path": "Wolf_DieBekherte/Wolf_DieBekherte_MIX.wav",
+            "other_stems": [
+                "Wolf_DieBekherte/Wolf_DieBekherte_STEMS/Wolf_DieBekherte_STEM_02.wav"
+            ],
+            "target_stems": [
+                "Wolf_DieBekherte/Wolf_DieBekherte_STEMS/Wolf_DieBekherte_STEM_01.wav"
+            ]
+        },
+        {
+            "mix_path": "MusicDelta_Rockabilly/MusicDelta_Rockabilly_MIX.wav",
+            "other_stems": [
+                "MusicDelta_Rockabilly/MusicDelta_Rockabilly_STEMS/MusicDelta_Rockabilly_STEM_01.wav",
+                "MusicDelta_Rockabilly/MusicDelta_Rockabilly_STEMS/MusicDelta_Rockabilly_STEM_02.wav",
+                "MusicDelta_Rockabilly/MusicDelta_Rockabilly_STEMS/MusicDelta_Rockabilly_STEM_03.wav",
+                "MusicDelta_Rockabilly/MusicDelta_Rockabilly_STEMS/MusicDelta_Rockabilly_STEM_04.wav"
+            ],
+            "target_stems": [
+                "MusicDelta_Rockabilly/MusicDelta_Rockabilly_STEMS/MusicDelta_Rockabilly_STEM_05.wav"
+            ]
+        },
+        {
+            "mix_path": "Auctioneer_OurFutureFaces/Auctioneer_OurFutureFaces_MIX.wav",
+            "other_stems": [
+                "Auctioneer_OurFutureFaces/Auctioneer_OurFutureFaces_STEMS/Auctioneer_OurFutureFaces_STEM_09.wav",
+                "Auctioneer_OurFutureFaces/Auctioneer_OurFutureFaces_STEMS/Auctioneer_OurFutureFaces_STEM_01.wav",
+                "Auctioneer_OurFutureFaces/Auctioneer_OurFutureFaces_STEMS/Auctioneer_OurFutureFaces_STEM_02.wav",
+                "Auctioneer_OurFutureFaces/Auctioneer_OurFutureFaces_STEMS/Auctioneer_OurFutureFaces_STEM_10.wav",
+                "Auctioneer_OurFutureFaces/Auctioneer_OurFutureFaces_STEMS/Auctioneer_OurFutureFaces_STEM_04.wav",
+                "Auctioneer_OurFutureFaces/Auctioneer_OurFutureFaces_STEMS/Auctioneer_OurFutureFaces_STEM_05.wav",
+                "Auctioneer_OurFutureFaces/Auctioneer_OurFutureFaces_STEMS/Auctioneer_OurFutureFaces_STEM_06.wav",
+                "Auctioneer_OurFutureFaces/Auctioneer_OurFutureFaces_STEMS/Auctioneer_OurFutureFaces_STEM_07.wav"
+            ],
+            "target_stems": [
+                "Auctioneer_OurFutureFaces/Auctioneer_OurFutureFaces_STEMS/Auctioneer_OurFutureFaces_STEM_08.wav",
+                "Auctioneer_OurFutureFaces/Auctioneer_OurFutureFaces_STEMS/Auctioneer_OurFutureFaces_STEM_03.wav"
+            ]
+        },
+        {
+            "mix_path": "StevenClark_Bounty/StevenClark_Bounty_MIX.wav",
+            "other_stems": [
+                "StevenClark_Bounty/StevenClark_Bounty_STEMS/StevenClark_Bounty_STEM_09.wav",
+                "StevenClark_Bounty/StevenClark_Bounty_STEMS/StevenClark_Bounty_STEM_01.wav",
+                "StevenClark_Bounty/StevenClark_Bounty_STEMS/StevenClark_Bounty_STEM_02.wav",
+                "StevenClark_Bounty/StevenClark_Bounty_STEMS/StevenClark_Bounty_STEM_10.wav",
+                "StevenClark_Bounty/StevenClark_Bounty_STEMS/StevenClark_Bounty_STEM_04.wav",
+                "StevenClark_Bounty/StevenClark_Bounty_STEMS/StevenClark_Bounty_STEM_05.wav",
+                "StevenClark_Bounty/StevenClark_Bounty_STEMS/StevenClark_Bounty_STEM_06.wav"
+            ],
+            "target_stems": [
+                "StevenClark_Bounty/StevenClark_Bounty_STEMS/StevenClark_Bounty_STEM_08.wav",
+                "StevenClark_Bounty/StevenClark_Bounty_STEMS/StevenClark_Bounty_STEM_03.wav",
+                "StevenClark_Bounty/StevenClark_Bounty_STEMS/StevenClark_Bounty_STEM_07.wav"
+            ]
+        },
+        {
+            "mix_path": "HopAlong_SisterCities/HopAlong_SisterCities_MIX.wav",
+            "other_stems": [
+                "HopAlong_SisterCities/HopAlong_SisterCities_STEMS/HopAlong_SisterCities_STEM_08.wav",
+                "HopAlong_SisterCities/HopAlong_SisterCities_STEMS/HopAlong_SisterCities_STEM_01.wav",
+                "HopAlong_SisterCities/HopAlong_SisterCities_STEMS/HopAlong_SisterCities_STEM_02.wav",
+                "HopAlong_SisterCities/HopAlong_SisterCities_STEMS/HopAlong_SisterCities_STEM_04.wav",
+                "HopAlong_SisterCities/HopAlong_SisterCities_STEMS/HopAlong_SisterCities_STEM_05.wav",
+                "HopAlong_SisterCities/HopAlong_SisterCities_STEMS/HopAlong_SisterCities_STEM_06.wav"
+            ],
+            "target_stems": [
+                "HopAlong_SisterCities/HopAlong_SisterCities_STEMS/HopAlong_SisterCities_STEM_03.wav",
+                "HopAlong_SisterCities/HopAlong_SisterCities_STEMS/HopAlong_SisterCities_STEM_07.wav"
+            ]
+        },
+        {
+            "mix_path": "MatthewEntwistle_DontYouEver/MatthewEntwistle_DontYouEver_MIX.wav",
+            "other_stems": [
+                "MatthewEntwistle_DontYouEver/MatthewEntwistle_DontYouEver_STEMS/MatthewEntwistle_DontYouEver_STEM_01.wav",
+                "MatthewEntwistle_DontYouEver/MatthewEntwistle_DontYouEver_STEMS/MatthewEntwistle_DontYouEver_STEM_02.wav",
+                "MatthewEntwistle_DontYouEver/MatthewEntwistle_DontYouEver_STEMS/MatthewEntwistle_DontYouEver_STEM_03.wav",
+                "MatthewEntwistle_DontYouEver/MatthewEntwistle_DontYouEver_STEMS/MatthewEntwistle_DontYouEver_STEM_04.wav",
+                "MatthewEntwistle_DontYouEver/MatthewEntwistle_DontYouEver_STEMS/MatthewEntwistle_DontYouEver_STEM_05.wav",
+                "MatthewEntwistle_DontYouEver/MatthewEntwistle_DontYouEver_STEMS/MatthewEntwistle_DontYouEver_STEM_06.wav"
+            ],
+            "target_stems": [
+                "MatthewEntwistle_DontYouEver/MatthewEntwistle_DontYouEver_STEMS/MatthewEntwistle_DontYouEver_STEM_07.wav"
+            ]
+        },
+        {
+            "mix_path": "MusicDelta_80sRock/MusicDelta_80sRock_MIX.wav",
+            "other_stems": [
+                "MusicDelta_80sRock/MusicDelta_80sRock_STEMS/MusicDelta_80sRock_STEM_01.wav",
+                "MusicDelta_80sRock/MusicDelta_80sRock_STEMS/MusicDelta_80sRock_STEM_02.wav",
+                "MusicDelta_80sRock/MusicDelta_80sRock_STEMS/MusicDelta_80sRock_STEM_03.wav"
+            ],
+            "target_stems": [
+                "MusicDelta_80sRock/MusicDelta_80sRock_STEMS/MusicDelta_80sRock_STEM_04.wav"
+            ]
+        },
+        {
+            "mix_path": "FacesOnFilm_WaitingForGa/FacesOnFilm_WaitingForGa_MIX.wav",
+            "other_stems": [
+                "FacesOnFilm_WaitingForGa/FacesOnFilm_WaitingForGa_STEMS/FacesOnFilm_WaitingForGa_STEM_08.wav",
+                "FacesOnFilm_WaitingForGa/FacesOnFilm_WaitingForGa_STEMS/FacesOnFilm_WaitingForGa_STEM_01.wav",
+                "FacesOnFilm_WaitingForGa/FacesOnFilm_WaitingForGa_STEMS/FacesOnFilm_WaitingForGa_STEM_02.wav",
+                "FacesOnFilm_WaitingForGa/FacesOnFilm_WaitingForGa_STEMS/FacesOnFilm_WaitingForGa_STEM_04.wav",
+                "FacesOnFilm_WaitingForGa/FacesOnFilm_WaitingForGa_STEMS/FacesOnFilm_WaitingForGa_STEM_05.wav",
+                "FacesOnFilm_WaitingForGa/FacesOnFilm_WaitingForGa_STEMS/FacesOnFilm_WaitingForGa_STEM_06.wav",
+                "FacesOnFilm_WaitingForGa/FacesOnFilm_WaitingForGa_STEMS/FacesOnFilm_WaitingForGa_STEM_07.wav",
+                "FacesOnFilm_WaitingForGa/FacesOnFilm_WaitingForGa_STEMS/FacesOnFilm_WaitingForGa_STEM_11.wav"
+            ],
+            "target_stems": [
+                "FacesOnFilm_WaitingForGa/FacesOnFilm_WaitingForGa_STEMS/FacesOnFilm_WaitingForGa_STEM_09.wav",
+                "FacesOnFilm_WaitingForGa/FacesOnFilm_WaitingForGa_STEMS/FacesOnFilm_WaitingForGa_STEM_03.wav",
+                "FacesOnFilm_WaitingForGa/FacesOnFilm_WaitingForGa_STEMS/FacesOnFilm_WaitingForGa_STEM_10.wav"
+            ]
+        },
+        {
+            "mix_path": "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_MIX.wav",
+            "other_stems": [
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_03.wav",
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_04.wav",
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_05.wav",
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_22.wav",
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_23.wav",
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_20.wav",
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_21.wav",
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_06.wav",
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_24.wav",
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_25.wav",
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_07.wav",
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_08.wav",
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_09.wav",
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_19.wav",
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_13.wav",
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_12.wav",
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_11.wav",
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_10.wav",
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_16.wav",
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_15.wav",
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_14.wav",
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_01.wav",
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_02.wav"
+            ],
+            "target_stems": [
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_26.wav",
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_18.wav",
+                "Lushlife_ToynbeeSuite/Lushlife_ToynbeeSuite_STEMS/Lushlife_ToynbeeSuite_STEM_17.wav"
+            ]
+        },
+        {
+            "mix_path": "Meaxic_YouListen/Meaxic_YouListen_MIX.wav",
+            "other_stems": [
+                "Meaxic_YouListen/Meaxic_YouListen_STEMS/Meaxic_YouListen_STEM_03.wav",
+                "Meaxic_YouListen/Meaxic_YouListen_STEMS/Meaxic_YouListen_STEM_04.wav",
+                "Meaxic_YouListen/Meaxic_YouListen_STEMS/Meaxic_YouListen_STEM_05.wav",
+                "Meaxic_YouListen/Meaxic_YouListen_STEMS/Meaxic_YouListen_STEM_06.wav",
+                "Meaxic_YouListen/Meaxic_YouListen_STEMS/Meaxic_YouListen_STEM_07.wav"
+            ],
+            "target_stems": [
+                "Meaxic_YouListen/Meaxic_YouListen_STEMS/Meaxic_YouListen_STEM_01.wav",
+                "Meaxic_YouListen/Meaxic_YouListen_STEMS/Meaxic_YouListen_STEM_02.wav"
+            ]
+        },
+        {
+            "mix_path": "SweetLights_YouLetMeDown/SweetLights_YouLetMeDown_MIX.wav",
+            "other_stems": [
+                "SweetLights_YouLetMeDown/SweetLights_YouLetMeDown_STEMS/SweetLights_YouLetMeDown_STEM_09.wav",
+                "SweetLights_YouLetMeDown/SweetLights_YouLetMeDown_STEMS/SweetLights_YouLetMeDown_STEM_13.wav",
+                "SweetLights_YouLetMeDown/SweetLights_YouLetMeDown_STEMS/SweetLights_YouLetMeDown_STEM_01.wav",
+                "SweetLights_YouLetMeDown/SweetLights_YouLetMeDown_STEMS/SweetLights_YouLetMeDown_STEM_02.wav",
+                "SweetLights_YouLetMeDown/SweetLights_YouLetMeDown_STEMS/SweetLights_YouLetMeDown_STEM_10.wav",
+                "SweetLights_YouLetMeDown/SweetLights_YouLetMeDown_STEMS/SweetLights_YouLetMeDown_STEM_04.wav",
+                "SweetLights_YouLetMeDown/SweetLights_YouLetMeDown_STEMS/SweetLights_YouLetMeDown_STEM_05.wav",
+                "SweetLights_YouLetMeDown/SweetLights_YouLetMeDown_STEMS/SweetLights_YouLetMeDown_STEM_06.wav",
+                "SweetLights_YouLetMeDown/SweetLights_YouLetMeDown_STEMS/SweetLights_YouLetMeDown_STEM_07.wav",
+                "SweetLights_YouLetMeDown/SweetLights_YouLetMeDown_STEMS/SweetLights_YouLetMeDown_STEM_12.wav",
+                "SweetLights_YouLetMeDown/SweetLights_YouLetMeDown_STEMS/SweetLights_YouLetMeDown_STEM_11.wav"
+            ],
+            "target_stems": [
+                "SweetLights_YouLetMeDown/SweetLights_YouLetMeDown_STEMS/SweetLights_YouLetMeDown_STEM_08.wav",
+                "SweetLights_YouLetMeDown/SweetLights_YouLetMeDown_STEMS/SweetLights_YouLetMeDown_STEM_03.wav"
+            ]
+        },
+        {
+            "mix_path": "TheScarletBrand_LesFleursDuMal/TheScarletBrand_LesFleursDuMal_MIX.wav",
+            "other_stems": [
+                "TheScarletBrand_LesFleursDuMal/TheScarletBrand_LesFleursDuMal_STEMS/TheScarletBrand_LesFleursDuMal_STEM_01.wav",
+                "TheScarletBrand_LesFleursDuMal/TheScarletBrand_LesFleursDuMal_STEMS/TheScarletBrand_LesFleursDuMal_STEM_02.wav",
+                "TheScarletBrand_LesFleursDuMal/TheScarletBrand_LesFleursDuMal_STEMS/TheScarletBrand_LesFleursDuMal_STEM_03.wav",
+                "TheScarletBrand_LesFleursDuMal/TheScarletBrand_LesFleursDuMal_STEMS/TheScarletBrand_LesFleursDuMal_STEM_04.wav",
+                "TheScarletBrand_LesFleursDuMal/TheScarletBrand_LesFleursDuMal_STEMS/TheScarletBrand_LesFleursDuMal_STEM_05.wav",
+                "TheScarletBrand_LesFleursDuMal/TheScarletBrand_LesFleursDuMal_STEMS/TheScarletBrand_LesFleursDuMal_STEM_06.wav",
+                "TheScarletBrand_LesFleursDuMal/TheScarletBrand_LesFleursDuMal_STEMS/TheScarletBrand_LesFleursDuMal_STEM_07.wav"
+            ],
+            "target_stems": [
+                "TheScarletBrand_LesFleursDuMal/TheScarletBrand_LesFleursDuMal_STEMS/TheScarletBrand_LesFleursDuMal_STEM_08.wav"
+            ]
+        },
+        {
+            "mix_path": "MatthewEntwistle_AnEveningWithOliver/MatthewEntwistle_AnEveningWithOliver_MIX.wav",
+            "other_stems": [
+                "MatthewEntwistle_AnEveningWithOliver/MatthewEntwistle_AnEveningWithOliver_STEMS/MatthewEntwistle_AnEveningWithOliver_STEM_03.wav",
+                "MatthewEntwistle_AnEveningWithOliver/MatthewEntwistle_AnEveningWithOliver_STEMS/MatthewEntwistle_AnEveningWithOliver_STEM_04.wav",
+                "MatthewEntwistle_AnEveningWithOliver/MatthewEntwistle_AnEveningWithOliver_STEMS/MatthewEntwistle_AnEveningWithOliver_STEM_05.wav",
+                "MatthewEntwistle_AnEveningWithOliver/MatthewEntwistle_AnEveningWithOliver_STEMS/MatthewEntwistle_AnEveningWithOliver_STEM_22.wav",
+                "MatthewEntwistle_AnEveningWithOliver/MatthewEntwistle_AnEveningWithOliver_STEMS/MatthewEntwistle_AnEveningWithOliver_STEM_23.wav",
+                "MatthewEntwistle_AnEveningWithOliver/MatthewEntwistle_AnEveningWithOliver_STEMS/MatthewEntwistle_AnEveningWithOliver_STEM_20.wav",
+                "MatthewEntwistle_AnEveningWithOliver/MatthewEntwistle_AnEveningWithOliver_STEMS/MatthewEntwistle_AnEveningWithOliver_STEM_21.wav",
+                "MatthewEntwistle_AnEveningWithOliver/MatthewEntwistle_AnEveningWithOliver_STEMS/MatthewEntwistle_AnEveningWithOliver_STEM_24.wav",
+                "MatthewEntwistle_AnEveningWithOliver/MatthewEntwistle_AnEveningWithOliver_STEMS/MatthewEntwistle_AnEveningWithOliver_STEM_07.wav",
+                "MatthewEntwistle_AnEveningWithOliver/MatthewEntwistle_AnEveningWithOliver_STEMS/MatthewEntwistle_AnEveningWithOliver_STEM_08.wav",
+                "MatthewEntwistle_AnEveningWithOliver/MatthewEntwistle_AnEveningWithOliver_STEMS/MatthewEntwistle_AnEveningWithOliver_STEM_09.wav",
+                "MatthewEntwistle_AnEveningWithOliver/MatthewEntwistle_AnEveningWithOliver_STEMS/MatthewEntwistle_AnEveningWithOliver_STEM_19.wav",
+                "MatthewEntwistle_AnEveningWithOliver/MatthewEntwistle_AnEveningWithOliver_STEMS/MatthewEntwistle_AnEveningWithOliver_STEM_18.wav",
+                "MatthewEntwistle_AnEveningWithOliver/MatthewEntwistle_AnEveningWithOliver_STEMS/MatthewEntwistle_AnEveningWithOliver_STEM_13.wav",
+                "MatthewEntwistle_AnEveningWithOliver/MatthewEntwistle_AnEveningWithOliver_STEMS/MatthewEntwistle_AnEveningWithOliver_STEM_12.wav",
+                "MatthewEntwistle_AnEveningWithOliver/MatthewEntwistle_AnEveningWithOliver_STEMS/MatthewEntwistle_AnEveningWithOliver_STEM_11.wav",
+                "MatthewEntwistle_AnEveningWithOliver/MatthewEntwistle_AnEveningWithOliver_STEMS/MatthewEntwistle_AnEveningWithOliver_STEM_10.wav",
+                "MatthewEntwistle_AnEveningWithOliver/MatthewEntwistle_AnEveningWithOliver_STEMS/MatthewEntwistle_AnEveningWithOliver_STEM_17.wav",
+                "MatthewEntwistle_AnEveningWithOliver/MatthewEntwistle_AnEveningWithOliver_STEMS/MatthewEntwistle_AnEveningWithOliver_STEM_16.wav",
+                "MatthewEntwistle_AnEveningWithOliver/MatthewEntwistle_AnEveningWithOliver_STEMS/MatthewEntwistle_AnEveningWithOliver_STEM_15.wav",
+                "MatthewEntwistle_AnEveningWithOliver/MatthewEntwistle_AnEveningWithOliver_STEMS/MatthewEntwistle_AnEveningWithOliver_STEM_14.wav",
+                "MatthewEntwistle_AnEveningWithOliver/MatthewEntwistle_AnEveningWithOliver_STEMS/MatthewEntwistle_AnEveningWithOliver_STEM_01.wav",
+                "MatthewEntwistle_AnEveningWithOliver/MatthewEntwistle_AnEveningWithOliver_STEMS/MatthewEntwistle_AnEveningWithOliver_STEM_02.wav"
+            ],
+            "target_stems": [
+                "MatthewEntwistle_AnEveningWithOliver/MatthewEntwistle_AnEveningWithOliver_STEMS/MatthewEntwistle_AnEveningWithOliver_STEM_06.wav"
+            ]
+        },
+        {
+            "mix_path": "Grants_PunchDrunk/Grants_PunchDrunk_MIX.wav",
+            "other_stems": [
+                "Grants_PunchDrunk/Grants_PunchDrunk_STEMS/Grants_PunchDrunk_STEM_08.wav",
+                "Grants_PunchDrunk/Grants_PunchDrunk_STEMS/Grants_PunchDrunk_STEM_09.wav",
+                "Grants_PunchDrunk/Grants_PunchDrunk_STEMS/Grants_PunchDrunk_STEM_01.wav",
+                "Grants_PunchDrunk/Grants_PunchDrunk_STEMS/Grants_PunchDrunk_STEM_02.wav",
+                "Grants_PunchDrunk/Grants_PunchDrunk_STEMS/Grants_PunchDrunk_STEM_10.wav",
+                "Grants_PunchDrunk/Grants_PunchDrunk_STEMS/Grants_PunchDrunk_STEM_05.wav",
+                "Grants_PunchDrunk/Grants_PunchDrunk_STEMS/Grants_PunchDrunk_STEM_06.wav"
+            ],
+            "target_stems": [
+                "Grants_PunchDrunk/Grants_PunchDrunk_STEMS/Grants_PunchDrunk_STEM_03.wav",
+                "Grants_PunchDrunk/Grants_PunchDrunk_STEMS/Grants_PunchDrunk_STEM_04.wav",
+                "Grants_PunchDrunk/Grants_PunchDrunk_STEMS/Grants_PunchDrunk_STEM_07.wav"
+            ]
+        },
+        {
+            "mix_path": "HeladoNegro_MitadDelMundo/HeladoNegro_MitadDelMundo_MIX.wav",
+            "other_stems": [
+                "HeladoNegro_MitadDelMundo/HeladoNegro_MitadDelMundo_STEMS/HeladoNegro_MitadDelMundo_STEM_09.wav",
+                "HeladoNegro_MitadDelMundo/HeladoNegro_MitadDelMundo_STEMS/HeladoNegro_MitadDelMundo_STEM_01.wav",
+                "HeladoNegro_MitadDelMundo/HeladoNegro_MitadDelMundo_STEMS/HeladoNegro_MitadDelMundo_STEM_02.wav",
+                "HeladoNegro_MitadDelMundo/HeladoNegro_MitadDelMundo_STEMS/HeladoNegro_MitadDelMundo_STEM_10.wav",
+                "HeladoNegro_MitadDelMundo/HeladoNegro_MitadDelMundo_STEMS/HeladoNegro_MitadDelMundo_STEM_04.wav",
+                "HeladoNegro_MitadDelMundo/HeladoNegro_MitadDelMundo_STEMS/HeladoNegro_MitadDelMundo_STEM_05.wav",
+                "HeladoNegro_MitadDelMundo/HeladoNegro_MitadDelMundo_STEMS/HeladoNegro_MitadDelMundo_STEM_06.wav",
+                "HeladoNegro_MitadDelMundo/HeladoNegro_MitadDelMundo_STEMS/HeladoNegro_MitadDelMundo_STEM_07.wav"
+            ],
+            "target_stems": [
+                "HeladoNegro_MitadDelMundo/HeladoNegro_MitadDelMundo_STEMS/HeladoNegro_MitadDelMundo_STEM_08.wav",
+                "HeladoNegro_MitadDelMundo/HeladoNegro_MitadDelMundo_STEMS/HeladoNegro_MitadDelMundo_STEM_03.wav"
+            ]
+        },
+        {
+            "mix_path": "HezekiahJones_BorrowedHeart/HezekiahJones_BorrowedHeart_MIX.wav",
+            "other_stems": [
+                "HezekiahJones_BorrowedHeart/HezekiahJones_BorrowedHeart_STEMS/HezekiahJones_BorrowedHeart_STEM_08.wav",
+                "HezekiahJones_BorrowedHeart/HezekiahJones_BorrowedHeart_STEMS/HezekiahJones_BorrowedHeart_STEM_09.wav",
+                "HezekiahJones_BorrowedHeart/HezekiahJones_BorrowedHeart_STEMS/HezekiahJones_BorrowedHeart_STEM_03.wav",
+                "HezekiahJones_BorrowedHeart/HezekiahJones_BorrowedHeart_STEMS/HezekiahJones_BorrowedHeart_STEM_01.wav",
+                "HezekiahJones_BorrowedHeart/HezekiahJones_BorrowedHeart_STEMS/HezekiahJones_BorrowedHeart_STEM_04.wav",
+                "HezekiahJones_BorrowedHeart/HezekiahJones_BorrowedHeart_STEMS/HezekiahJones_BorrowedHeart_STEM_05.wav",
+                "HezekiahJones_BorrowedHeart/HezekiahJones_BorrowedHeart_STEMS/HezekiahJones_BorrowedHeart_STEM_07.wav",
+                "HezekiahJones_BorrowedHeart/HezekiahJones_BorrowedHeart_STEMS/HezekiahJones_BorrowedHeart_STEM_12.wav",
+                "HezekiahJones_BorrowedHeart/HezekiahJones_BorrowedHeart_STEMS/HezekiahJones_BorrowedHeart_STEM_11.wav"
+            ],
+            "target_stems": [
+                "HezekiahJones_BorrowedHeart/HezekiahJones_BorrowedHeart_STEMS/HezekiahJones_BorrowedHeart_STEM_02.wav",
+                "HezekiahJones_BorrowedHeart/HezekiahJones_BorrowedHeart_STEMS/HezekiahJones_BorrowedHeart_STEM_10.wav",
+                "HezekiahJones_BorrowedHeart/HezekiahJones_BorrowedHeart_STEMS/HezekiahJones_BorrowedHeart_STEM_06.wav"
+            ]
+        },
+        {
+            "mix_path": "Debussy_LenfantProdigue/Debussy_LenfantProdigue_MIX.wav",
+            "other_stems": [
+                "Debussy_LenfantProdigue/Debussy_LenfantProdigue_STEMS/Debussy_LenfantProdigue_STEM_02.wav"
+            ],
+            "target_stems": [
+                "Debussy_LenfantProdigue/Debussy_LenfantProdigue_STEMS/Debussy_LenfantProdigue_STEM_01.wav"
+            ]
+        },
+        {
+            "mix_path": "MusicDelta_Country2/MusicDelta_Country2_MIX.wav",
+            "other_stems": [
+                "MusicDelta_Country2/MusicDelta_Country2_STEMS/MusicDelta_Country2_STEM_01.wav",
+                "MusicDelta_Country2/MusicDelta_Country2_STEMS/MusicDelta_Country2_STEM_02.wav",
+                "MusicDelta_Country2/MusicDelta_Country2_STEMS/MusicDelta_Country2_STEM_03.wav",
+                "MusicDelta_Country2/MusicDelta_Country2_STEMS/MusicDelta_Country2_STEM_04.wav"
+            ],
+            "target_stems": [
+                "MusicDelta_Country2/MusicDelta_Country2_STEMS/MusicDelta_Country2_STEM_05.wav"
+            ]
+        },
+        {
+            "mix_path": "Mozart_BesterJungling/Mozart_BesterJungling_MIX.wav",
+            "other_stems": [
+                "Mozart_BesterJungling/Mozart_BesterJungling_STEMS/Mozart_BesterJungling_STEM_02.wav"
+            ],
+            "target_stems": [
+                "Mozart_BesterJungling/Mozart_BesterJungling_STEMS/Mozart_BesterJungling_STEM_01.wav"
+            ]
+        },
+        {
+            "mix_path": "MusicDelta_Gospel/MusicDelta_Gospel_MIX.wav",
+            "other_stems": [
+                "MusicDelta_Gospel/MusicDelta_Gospel_STEMS/MusicDelta_Gospel_STEM_01.wav",
+                "MusicDelta_Gospel/MusicDelta_Gospel_STEMS/MusicDelta_Gospel_STEM_02.wav",
+                "MusicDelta_Gospel/MusicDelta_Gospel_STEMS/MusicDelta_Gospel_STEM_03.wav",
+                "MusicDelta_Gospel/MusicDelta_Gospel_STEMS/MusicDelta_Gospel_STEM_04.wav",
+                "MusicDelta_Gospel/MusicDelta_Gospel_STEMS/MusicDelta_Gospel_STEM_05.wav"
+            ],
+            "target_stems": [
+                "MusicDelta_Gospel/MusicDelta_Gospel_STEMS/MusicDelta_Gospel_STEM_06.wav"
+            ]
+        },
+        {
+            "mix_path": "ClaraBerryAndWooldog_Stella/ClaraBerryAndWooldog_Stella_MIX.wav",
+            "other_stems": [
+                "ClaraBerryAndWooldog_Stella/ClaraBerryAndWooldog_Stella_STEMS/ClaraBerryAndWooldog_Stella_STEM_01.wav",
+                "ClaraBerryAndWooldog_Stella/ClaraBerryAndWooldog_Stella_STEMS/ClaraBerryAndWooldog_Stella_STEM_02.wav",
+                "ClaraBerryAndWooldog_Stella/ClaraBerryAndWooldog_Stella_STEMS/ClaraBerryAndWooldog_Stella_STEM_03.wav",
+                "ClaraBerryAndWooldog_Stella/ClaraBerryAndWooldog_Stella_STEMS/ClaraBerryAndWooldog_Stella_STEM_04.wav",
+                "ClaraBerryAndWooldog_Stella/ClaraBerryAndWooldog_Stella_STEMS/ClaraBerryAndWooldog_Stella_STEM_05.wav",
+                "ClaraBerryAndWooldog_Stella/ClaraBerryAndWooldog_Stella_STEMS/ClaraBerryAndWooldog_Stella_STEM_06.wav"
+            ],
+            "target_stems": [
+                "ClaraBerryAndWooldog_Stella/ClaraBerryAndWooldog_Stella_STEMS/ClaraBerryAndWooldog_Stella_STEM_08.wav",
+                "ClaraBerryAndWooldog_Stella/ClaraBerryAndWooldog_Stella_STEMS/ClaraBerryAndWooldog_Stella_STEM_07.wav"
+            ]
+        },
+        {
+            "mix_path": "MusicDelta_Rock/MusicDelta_Rock_MIX.wav",
+            "other_stems": [
+                "MusicDelta_Rock/MusicDelta_Rock_STEMS/MusicDelta_Rock_STEM_01.wav",
+                "MusicDelta_Rock/MusicDelta_Rock_STEMS/MusicDelta_Rock_STEM_02.wav",
+                "MusicDelta_Rock/MusicDelta_Rock_STEMS/MusicDelta_Rock_STEM_03.wav",
+                "MusicDelta_Rock/MusicDelta_Rock_STEMS/MusicDelta_Rock_STEM_04.wav"
+            ],
+            "target_stems": [
+                "MusicDelta_Rock/MusicDelta_Rock_STEMS/MusicDelta_Rock_STEM_05.wav"
+            ]
+        },
+        {
+            "mix_path": "AvaLuna_Waterduct/AvaLuna_Waterduct_MIX.wav",
+            "other_stems": [
+                "AvaLuna_Waterduct/AvaLuna_Waterduct_STEMS/AvaLuna_Waterduct_STEM_01.wav",
+                "AvaLuna_Waterduct/AvaLuna_Waterduct_STEMS/AvaLuna_Waterduct_STEM_02.wav",
+                "AvaLuna_Waterduct/AvaLuna_Waterduct_STEMS/AvaLuna_Waterduct_STEM_04.wav",
+                "AvaLuna_Waterduct/AvaLuna_Waterduct_STEMS/AvaLuna_Waterduct_STEM_05.wav",
+                "AvaLuna_Waterduct/AvaLuna_Waterduct_STEMS/AvaLuna_Waterduct_STEM_06.wav",
+                "AvaLuna_Waterduct/AvaLuna_Waterduct_STEMS/AvaLuna_Waterduct_STEM_07.wav"
+            ],
+            "target_stems": [
+                "AvaLuna_Waterduct/AvaLuna_Waterduct_STEMS/AvaLuna_Waterduct_STEM_08.wav",
+                "AvaLuna_Waterduct/AvaLuna_Waterduct_STEMS/AvaLuna_Waterduct_STEM_03.wav"
+            ]
+        },
+        {
+            "mix_path": "ClaraBerryAndWooldog_WaltzForMyVictims/ClaraBerryAndWooldog_WaltzForMyVictims_MIX.wav",
+            "other_stems": [
+                "ClaraBerryAndWooldog_WaltzForMyVictims/ClaraBerryAndWooldog_WaltzForMyVictims_STEMS/ClaraBerryAndWooldog_WaltzForMyVictims_STEM_01.wav",
+                "ClaraBerryAndWooldog_WaltzForMyVictims/ClaraBerryAndWooldog_WaltzForMyVictims_STEMS/ClaraBerryAndWooldog_WaltzForMyVictims_STEM_02.wav",
+                "ClaraBerryAndWooldog_WaltzForMyVictims/ClaraBerryAndWooldog_WaltzForMyVictims_STEMS/ClaraBerryAndWooldog_WaltzForMyVictims_STEM_03.wav",
+                "ClaraBerryAndWooldog_WaltzForMyVictims/ClaraBerryAndWooldog_WaltzForMyVictims_STEMS/ClaraBerryAndWooldog_WaltzForMyVictims_STEM_04.wav"
+            ],
+            "target_stems": [
+                "ClaraBerryAndWooldog_WaltzForMyVictims/ClaraBerryAndWooldog_WaltzForMyVictims_STEMS/ClaraBerryAndWooldog_WaltzForMyVictims_STEM_05.wav"
+            ]
+        },
+        {
+            "mix_path": "MusicDelta_Hendrix/MusicDelta_Hendrix_MIX.wav",
+            "other_stems": [
+                "MusicDelta_Hendrix/MusicDelta_Hendrix_STEMS/MusicDelta_Hendrix_STEM_01.wav",
+                "MusicDelta_Hendrix/MusicDelta_Hendrix_STEMS/MusicDelta_Hendrix_STEM_02.wav",
+                "MusicDelta_Hendrix/MusicDelta_Hendrix_STEMS/MusicDelta_Hendrix_STEM_03.wav"
+            ],
+            "target_stems": [
+                "MusicDelta_Hendrix/MusicDelta_Hendrix_STEMS/MusicDelta_Hendrix_STEM_04.wav"
+            ]
+        },
+        {
+            "mix_path": "AlexanderRoss_GoodbyeBolero/AlexanderRoss_GoodbyeBolero_MIX.wav",
+            "other_stems": [
+                "AlexanderRoss_GoodbyeBolero/AlexanderRoss_GoodbyeBolero_STEMS/AlexanderRoss_GoodbyeBolero_STEM_08.wav",
+                "AlexanderRoss_GoodbyeBolero/AlexanderRoss_GoodbyeBolero_STEMS/AlexanderRoss_GoodbyeBolero_STEM_09.wav",
+                "AlexanderRoss_GoodbyeBolero/AlexanderRoss_GoodbyeBolero_STEMS/AlexanderRoss_GoodbyeBolero_STEM_01.wav",
+                "AlexanderRoss_GoodbyeBolero/AlexanderRoss_GoodbyeBolero_STEMS/AlexanderRoss_GoodbyeBolero_STEM_02.wav",
+                "AlexanderRoss_GoodbyeBolero/AlexanderRoss_GoodbyeBolero_STEMS/AlexanderRoss_GoodbyeBolero_STEM_03.wav",
+                "AlexanderRoss_GoodbyeBolero/AlexanderRoss_GoodbyeBolero_STEMS/AlexanderRoss_GoodbyeBolero_STEM_04.wav",
+                "AlexanderRoss_GoodbyeBolero/AlexanderRoss_GoodbyeBolero_STEMS/AlexanderRoss_GoodbyeBolero_STEM_05.wav",
+                "AlexanderRoss_GoodbyeBolero/AlexanderRoss_GoodbyeBolero_STEMS/AlexanderRoss_GoodbyeBolero_STEM_07.wav"
+            ],
+            "target_stems": [
+                "AlexanderRoss_GoodbyeBolero/AlexanderRoss_GoodbyeBolero_STEMS/AlexanderRoss_GoodbyeBolero_STEM_06.wav"
+            ]
+        },
+        {
+            "mix_path": "Snowmine_Curfews/Snowmine_Curfews_MIX.wav",
+            "other_stems": [
+                "Snowmine_Curfews/Snowmine_Curfews_STEMS/Snowmine_Curfews_STEM_08.wav",
+                "Snowmine_Curfews/Snowmine_Curfews_STEMS/Snowmine_Curfews_STEM_09.wav",
+                "Snowmine_Curfews/Snowmine_Curfews_STEMS/Snowmine_Curfews_STEM_01.wav",
+                "Snowmine_Curfews/Snowmine_Curfews_STEMS/Snowmine_Curfews_STEM_02.wav",
+                "Snowmine_Curfews/Snowmine_Curfews_STEMS/Snowmine_Curfews_STEM_04.wav",
+                "Snowmine_Curfews/Snowmine_Curfews_STEMS/Snowmine_Curfews_STEM_05.wav",
+                "Snowmine_Curfews/Snowmine_Curfews_STEMS/Snowmine_Curfews_STEM_06.wav",
+                "Snowmine_Curfews/Snowmine_Curfews_STEMS/Snowmine_Curfews_STEM_07.wav",
+                "Snowmine_Curfews/Snowmine_Curfews_STEMS/Snowmine_Curfews_STEM_11.wav"
+            ],
+            "target_stems": [
+                "Snowmine_Curfews/Snowmine_Curfews_STEMS/Snowmine_Curfews_STEM_03.wav",
+                "Snowmine_Curfews/Snowmine_Curfews_STEMS/Snowmine_Curfews_STEM_10.wav"
+            ]
+        },
+        {
+            "mix_path": "PurlingHiss_Lolita/PurlingHiss_Lolita_MIX.wav",
+            "other_stems": [
+                "PurlingHiss_Lolita/PurlingHiss_Lolita_STEMS/PurlingHiss_Lolita_STEM_01.wav",
+                "PurlingHiss_Lolita/PurlingHiss_Lolita_STEMS/PurlingHiss_Lolita_STEM_02.wav",
+                "PurlingHiss_Lolita/PurlingHiss_Lolita_STEMS/PurlingHiss_Lolita_STEM_03.wav",
+                "PurlingHiss_Lolita/PurlingHiss_Lolita_STEMS/PurlingHiss_Lolita_STEM_04.wav",
+                "PurlingHiss_Lolita/PurlingHiss_Lolita_STEMS/PurlingHiss_Lolita_STEM_05.wav"
+            ],
+            "target_stems": [
+                "PurlingHiss_Lolita/PurlingHiss_Lolita_STEMS/PurlingHiss_Lolita_STEM_06.wav"
+            ]
+        },
+        {
+            "mix_path": "MusicDelta_Reggae/MusicDelta_Reggae_MIX.wav",
+            "other_stems": [
+                "MusicDelta_Reggae/MusicDelta_Reggae_STEMS/MusicDelta_Reggae_STEM_01.wav",
+                "MusicDelta_Reggae/MusicDelta_Reggae_STEMS/MusicDelta_Reggae_STEM_02.wav",
+                "MusicDelta_Reggae/MusicDelta_Reggae_STEMS/MusicDelta_Reggae_STEM_03.wav"
+            ],
+            "target_stems": [
+                "MusicDelta_Reggae/MusicDelta_Reggae_STEMS/MusicDelta_Reggae_STEM_04.wav"
+            ]
+        },
+        {
+            "mix_path": "BrandonWebster_YesSirICanFly/BrandonWebster_YesSirICanFly_MIX.wav",
+            "other_stems": [
+                "BrandonWebster_YesSirICanFly/BrandonWebster_YesSirICanFly_STEMS/BrandonWebster_YesSirICanFly_STEM_01.wav"
+            ],
+            "target_stems": [
+                "BrandonWebster_YesSirICanFly/BrandonWebster_YesSirICanFly_STEMS/BrandonWebster_YesSirICanFly_STEM_02.wav"
+            ]
+        },
+        {
+            "mix_path": "AClassicEducation_NightOwl/AClassicEducation_NightOwl_MIX.wav",
+            "other_stems": [
+                "AClassicEducation_NightOwl/AClassicEducation_NightOwl_STEMS/AClassicEducation_NightOwl_STEM_09.wav",
+                "AClassicEducation_NightOwl/AClassicEducation_NightOwl_STEMS/AClassicEducation_NightOwl_STEM_03.wav",
+                "AClassicEducation_NightOwl/AClassicEducation_NightOwl_STEMS/AClassicEducation_NightOwl_STEM_01.wav",
+                "AClassicEducation_NightOwl/AClassicEducation_NightOwl_STEMS/AClassicEducation_NightOwl_STEM_02.wav",
+                "AClassicEducation_NightOwl/AClassicEducation_NightOwl_STEMS/AClassicEducation_NightOwl_STEM_04.wav",
+                "AClassicEducation_NightOwl/AClassicEducation_NightOwl_STEMS/AClassicEducation_NightOwl_STEM_05.wav",
+                "AClassicEducation_NightOwl/AClassicEducation_NightOwl_STEMS/AClassicEducation_NightOwl_STEM_06.wav",
+                "AClassicEducation_NightOwl/AClassicEducation_NightOwl_STEMS/AClassicEducation_NightOwl_STEM_07.wav",
+                "AClassicEducation_NightOwl/AClassicEducation_NightOwl_STEMS/AClassicEducation_NightOwl_STEM_12.wav",
+                "AClassicEducation_NightOwl/AClassicEducation_NightOwl_STEMS/AClassicEducation_NightOwl_STEM_11.wav"
+            ],
+            "target_stems": [
+                "AClassicEducation_NightOwl/AClassicEducation_NightOwl_STEMS/AClassicEducation_NightOwl_STEM_08.wav",
+                "AClassicEducation_NightOwl/AClassicEducation_NightOwl_STEMS/AClassicEducation_NightOwl_STEM_13.wav",
+                "AClassicEducation_NightOwl/AClassicEducation_NightOwl_STEMS/AClassicEducation_NightOwl_STEM_10.wav"
+            ]
+        },
+        {
+            "mix_path": "LizNelson_Coldwar/LizNelson_Coldwar_MIX.wav",
+            "other_stems": [
+                "LizNelson_Coldwar/LizNelson_Coldwar_STEMS/LizNelson_Coldwar_STEM_01.wav"
+            ],
+            "target_stems": [
+                "LizNelson_Coldwar/LizNelson_Coldwar_STEMS/LizNelson_Coldwar_STEM_02.wav"
+            ]
+        },
+        {
+            "mix_path": "Creepoid_OldTree/Creepoid_OldTree_MIX.wav",
+            "other_stems": [
+                "Creepoid_OldTree/Creepoid_OldTree_STEMS/Creepoid_OldTree_STEM_03.wav",
+                "Creepoid_OldTree/Creepoid_OldTree_STEMS/Creepoid_OldTree_STEM_02.wav",
+                "Creepoid_OldTree/Creepoid_OldTree_STEMS/Creepoid_OldTree_STEM_10.wav",
+                "Creepoid_OldTree/Creepoid_OldTree_STEMS/Creepoid_OldTree_STEM_04.wav",
+                "Creepoid_OldTree/Creepoid_OldTree_STEMS/Creepoid_OldTree_STEM_05.wav",
+                "Creepoid_OldTree/Creepoid_OldTree_STEMS/Creepoid_OldTree_STEM_06.wav"
+            ],
+            "target_stems": [
+                "Creepoid_OldTree/Creepoid_OldTree_STEMS/Creepoid_OldTree_STEM_08.wav",
+                "Creepoid_OldTree/Creepoid_OldTree_STEMS/Creepoid_OldTree_STEM_09.wav",
+                "Creepoid_OldTree/Creepoid_OldTree_STEMS/Creepoid_OldTree_STEM_01.wav",
+                "Creepoid_OldTree/Creepoid_OldTree_STEMS/Creepoid_OldTree_STEM_07.wav"
+            ]
+        },
+        {
+            "mix_path": "Schumann_Mignon/Schumann_Mignon_MIX.wav",
+            "other_stems": [
+                "Schumann_Mignon/Schumann_Mignon_STEMS/Schumann_Mignon_STEM_01.wav"
+            ],
+            "target_stems": [
+                "Schumann_Mignon/Schumann_Mignon_STEMS/Schumann_Mignon_STEM_02.wav"
+            ]
+        },
+        {
+            "mix_path": "InvisibleFamiliars_DisturbingWildlife/InvisibleFamiliars_DisturbingWildlife_MIX.wav",
+            "other_stems": [
+                "InvisibleFamiliars_DisturbingWildlife/InvisibleFamiliars_DisturbingWildlife_STEMS/InvisibleFamiliars_DisturbingWildlife_STEM_03.wav",
+                "InvisibleFamiliars_DisturbingWildlife/InvisibleFamiliars_DisturbingWildlife_STEMS/InvisibleFamiliars_DisturbingWildlife_STEM_01.wav",
+                "InvisibleFamiliars_DisturbingWildlife/InvisibleFamiliars_DisturbingWildlife_STEMS/InvisibleFamiliars_DisturbingWildlife_STEM_02.wav",
+                "InvisibleFamiliars_DisturbingWildlife/InvisibleFamiliars_DisturbingWildlife_STEMS/InvisibleFamiliars_DisturbingWildlife_STEM_10.wav",
+                "InvisibleFamiliars_DisturbingWildlife/InvisibleFamiliars_DisturbingWildlife_STEMS/InvisibleFamiliars_DisturbingWildlife_STEM_04.wav",
+                "InvisibleFamiliars_DisturbingWildlife/InvisibleFamiliars_DisturbingWildlife_STEMS/InvisibleFamiliars_DisturbingWildlife_STEM_05.wav",
+                "InvisibleFamiliars_DisturbingWildlife/InvisibleFamiliars_DisturbingWildlife_STEMS/InvisibleFamiliars_DisturbingWildlife_STEM_06.wav"
+            ],
+            "target_stems": [
+                "InvisibleFamiliars_DisturbingWildlife/InvisibleFamiliars_DisturbingWildlife_STEMS/InvisibleFamiliars_DisturbingWildlife_STEM_08.wav",
+                "InvisibleFamiliars_DisturbingWildlife/InvisibleFamiliars_DisturbingWildlife_STEMS/InvisibleFamiliars_DisturbingWildlife_STEM_09.wav",
+                "InvisibleFamiliars_DisturbingWildlife/InvisibleFamiliars_DisturbingWildlife_STEMS/InvisibleFamiliars_DisturbingWildlife_STEM_07.wav"
+            ]
+        },
+        {
+            "mix_path": "LizNelson_Rainfall/LizNelson_Rainfall_MIX.wav",
+            "other_stems": [
+                "LizNelson_Rainfall/LizNelson_Rainfall_STEMS/LizNelson_Rainfall_STEM_04.wav",
+                "LizNelson_Rainfall/LizNelson_Rainfall_STEMS/LizNelson_Rainfall_STEM_05.wav"
+            ],
+            "target_stems": [
+                "LizNelson_Rainfall/LizNelson_Rainfall_STEMS/LizNelson_Rainfall_STEM_01.wav",
+                "LizNelson_Rainfall/LizNelson_Rainfall_STEMS/LizNelson_Rainfall_STEM_02.wav",
+                "LizNelson_Rainfall/LizNelson_Rainfall_STEMS/LizNelson_Rainfall_STEM_03.wav"
+            ]
+        },
+        {
+            "mix_path": "BigTroubles_Phantom/BigTroubles_Phantom_MIX.wav",
+            "other_stems": [
+                "BigTroubles_Phantom/BigTroubles_Phantom_STEMS/BigTroubles_Phantom_STEM_01.wav",
+                "BigTroubles_Phantom/BigTroubles_Phantom_STEMS/BigTroubles_Phantom_STEM_02.wav",
+                "BigTroubles_Phantom/BigTroubles_Phantom_STEMS/BigTroubles_Phantom_STEM_03.wav",
+                "BigTroubles_Phantom/BigTroubles_Phantom_STEMS/BigTroubles_Phantom_STEM_05.wav",
+                "BigTroubles_Phantom/BigTroubles_Phantom_STEMS/BigTroubles_Phantom_STEM_07.wav"
+            ],
+            "target_stems": [
+                "BigTroubles_Phantom/BigTroubles_Phantom_STEMS/BigTroubles_Phantom_STEM_04.wav",
+                "BigTroubles_Phantom/BigTroubles_Phantom_STEMS/BigTroubles_Phantom_STEM_06.wav"
+            ]
+        },
+        {
+            "mix_path": "AimeeNorwich_Child/AimeeNorwich_Child_MIX.wav",
+            "other_stems": [
+                "AimeeNorwich_Child/AimeeNorwich_Child_STEMS/AimeeNorwich_Child_STEM_01.wav",
+                "AimeeNorwich_Child/AimeeNorwich_Child_STEMS/AimeeNorwich_Child_STEM_02.wav",
+                "AimeeNorwich_Child/AimeeNorwich_Child_STEMS/AimeeNorwich_Child_STEM_03.wav",
+                "AimeeNorwich_Child/AimeeNorwich_Child_STEMS/AimeeNorwich_Child_STEM_06.wav",
+                "AimeeNorwich_Child/AimeeNorwich_Child_STEMS/AimeeNorwich_Child_STEM_07.wav"
+            ],
+            "target_stems": [
+                "AimeeNorwich_Child/AimeeNorwich_Child_STEMS/AimeeNorwich_Child_STEM_04.wav",
+                "AimeeNorwich_Child/AimeeNorwich_Child_STEMS/AimeeNorwich_Child_STEM_05.wav"
+            ]
+        },
+        {
+            "mix_path": "SecretMountains_HighHorse/SecretMountains_HighHorse_MIX.wav",
+            "other_stems": [
+                "SecretMountains_HighHorse/SecretMountains_HighHorse_STEMS/SecretMountains_HighHorse_STEM_08.wav",
+                "SecretMountains_HighHorse/SecretMountains_HighHorse_STEMS/SecretMountains_HighHorse_STEM_03.wav",
+                "SecretMountains_HighHorse/SecretMountains_HighHorse_STEMS/SecretMountains_HighHorse_STEM_01.wav",
+                "SecretMountains_HighHorse/SecretMountains_HighHorse_STEMS/SecretMountains_HighHorse_STEM_10.wav",
+                "SecretMountains_HighHorse/SecretMountains_HighHorse_STEMS/SecretMountains_HighHorse_STEM_04.wav",
+                "SecretMountains_HighHorse/SecretMountains_HighHorse_STEMS/SecretMountains_HighHorse_STEM_05.wav",
+                "SecretMountains_HighHorse/SecretMountains_HighHorse_STEMS/SecretMountains_HighHorse_STEM_06.wav",
+                "SecretMountains_HighHorse/SecretMountains_HighHorse_STEMS/SecretMountains_HighHorse_STEM_07.wav"
+            ],
+            "target_stems": [
+                "SecretMountains_HighHorse/SecretMountains_HighHorse_STEMS/SecretMountains_HighHorse_STEM_09.wav",
+                "SecretMountains_HighHorse/SecretMountains_HighHorse_STEMS/SecretMountains_HighHorse_STEM_02.wav"
+            ]
+        },
+        {
+            "mix_path": "BrandonWebster_DontHearAThing/BrandonWebster_DontHearAThing_MIX.wav",
+            "other_stems": [
+                "BrandonWebster_DontHearAThing/BrandonWebster_DontHearAThing_STEMS/BrandonWebster_DontHearAThing_STEM_01.wav",
+                "BrandonWebster_DontHearAThing/BrandonWebster_DontHearAThing_STEMS/BrandonWebster_DontHearAThing_STEM_03.wav"
+            ],
+            "target_stems": [
+                "BrandonWebster_DontHearAThing/BrandonWebster_DontHearAThing_STEMS/BrandonWebster_DontHearAThing_STEM_02.wav"
+            ]
+        },
+        {
+            "mix_path": "MatthewEntwistle_Lontano/MatthewEntwistle_Lontano_MIX.wav",
+            "other_stems": [
+                "MatthewEntwistle_Lontano/MatthewEntwistle_Lontano_STEMS/MatthewEntwistle_Lontano_STEM_01.wav"
+            ],
+            "target_stems": [
+                "MatthewEntwistle_Lontano/MatthewEntwistle_Lontano_STEMS/MatthewEntwistle_Lontano_STEM_02.wav"
+            ]
+        },
+        {
+            "mix_path": "Meaxic_TakeAStep/Meaxic_TakeAStep_MIX.wav",
+            "other_stems": [
+                "Meaxic_TakeAStep/Meaxic_TakeAStep_STEMS/Meaxic_TakeAStep_STEM_01.wav",
+                "Meaxic_TakeAStep/Meaxic_TakeAStep_STEMS/Meaxic_TakeAStep_STEM_02.wav",
+                "Meaxic_TakeAStep/Meaxic_TakeAStep_STEMS/Meaxic_TakeAStep_STEM_03.wav",
+                "Meaxic_TakeAStep/Meaxic_TakeAStep_STEMS/Meaxic_TakeAStep_STEM_05.wav"
+            ],
+            "target_stems": [
+                "Meaxic_TakeAStep/Meaxic_TakeAStep_STEMS/Meaxic_TakeAStep_STEM_08.wav",
+                "Meaxic_TakeAStep/Meaxic_TakeAStep_STEMS/Meaxic_TakeAStep_STEM_04.wav",
+                "Meaxic_TakeAStep/Meaxic_TakeAStep_STEMS/Meaxic_TakeAStep_STEM_06.wav",
+                "Meaxic_TakeAStep/Meaxic_TakeAStep_STEMS/Meaxic_TakeAStep_STEM_07.wav"
+            ]
+        },
+        {
+            "mix_path": "Mozart_DiesBildnis/Mozart_DiesBildnis_MIX.wav",
+            "other_stems": [
+                "Mozart_DiesBildnis/Mozart_DiesBildnis_STEMS/Mozart_DiesBildnis_STEM_02.wav"
+            ],
+            "target_stems": [
+                "Mozart_DiesBildnis/Mozart_DiesBildnis_STEMS/Mozart_DiesBildnis_STEM_01.wav"
+            ]
+        },
+        {
+            "mix_path": "NightPanther_Fire/NightPanther_Fire_MIX.wav",
+            "other_stems": [
+                "NightPanther_Fire/NightPanther_Fire_STEMS/NightPanther_Fire_STEM_08.wav",
+                "NightPanther_Fire/NightPanther_Fire_STEMS/NightPanther_Fire_STEM_09.wav",
+                "NightPanther_Fire/NightPanther_Fire_STEMS/NightPanther_Fire_STEM_01.wav",
+                "NightPanther_Fire/NightPanther_Fire_STEMS/NightPanther_Fire_STEM_10.wav",
+                "NightPanther_Fire/NightPanther_Fire_STEMS/NightPanther_Fire_STEM_04.wav",
+                "NightPanther_Fire/NightPanther_Fire_STEMS/NightPanther_Fire_STEM_05.wav",
+                "NightPanther_Fire/NightPanther_Fire_STEMS/NightPanther_Fire_STEM_06.wav",
+                "NightPanther_Fire/NightPanther_Fire_STEMS/NightPanther_Fire_STEM_12.wav",
+                "NightPanther_Fire/NightPanther_Fire_STEMS/NightPanther_Fire_STEM_11.wav"
+            ],
+            "target_stems": [
+                "NightPanther_Fire/NightPanther_Fire_STEMS/NightPanther_Fire_STEM_03.wav",
+                "NightPanther_Fire/NightPanther_Fire_STEMS/NightPanther_Fire_STEM_02.wav",
+                "NightPanther_Fire/NightPanther_Fire_STEMS/NightPanther_Fire_STEM_07.wav"
+            ]
+        },
+        {
+            "mix_path": "MusicDelta_Country1/MusicDelta_Country1_MIX.wav",
+            "other_stems": [
+                "MusicDelta_Country1/MusicDelta_Country1_STEMS/MusicDelta_Country1_STEM_01.wav",
+                "MusicDelta_Country1/MusicDelta_Country1_STEMS/MusicDelta_Country1_STEM_02.wav",
+                "MusicDelta_Country1/MusicDelta_Country1_STEMS/MusicDelta_Country1_STEM_03.wav",
+                "MusicDelta_Country1/MusicDelta_Country1_STEMS/MusicDelta_Country1_STEM_04.wav"
+            ],
+            "target_stems": [
+                "MusicDelta_Country1/MusicDelta_Country1_STEMS/MusicDelta_Country1_STEM_05.wav"
+            ]
+        },
+        {
+            "mix_path": "AlexanderRoss_VelvetCurtain/AlexanderRoss_VelvetCurtain_MIX.wav",
+            "other_stems": [
+                "AlexanderRoss_VelvetCurtain/AlexanderRoss_VelvetCurtain_STEMS/AlexanderRoss_VelvetCurtain_STEM_08.wav",
+                "AlexanderRoss_VelvetCurtain/AlexanderRoss_VelvetCurtain_STEMS/AlexanderRoss_VelvetCurtain_STEM_03.wav",
+                "AlexanderRoss_VelvetCurtain/AlexanderRoss_VelvetCurtain_STEMS/AlexanderRoss_VelvetCurtain_STEM_01.wav",
+                "AlexanderRoss_VelvetCurtain/AlexanderRoss_VelvetCurtain_STEMS/AlexanderRoss_VelvetCurtain_STEM_02.wav",
+                "AlexanderRoss_VelvetCurtain/AlexanderRoss_VelvetCurtain_STEMS/AlexanderRoss_VelvetCurtain_STEM_10.wav",
+                "AlexanderRoss_VelvetCurtain/AlexanderRoss_VelvetCurtain_STEMS/AlexanderRoss_VelvetCurtain_STEM_04.wav",
+                "AlexanderRoss_VelvetCurtain/AlexanderRoss_VelvetCurtain_STEMS/AlexanderRoss_VelvetCurtain_STEM_05.wav",
+                "AlexanderRoss_VelvetCurtain/AlexanderRoss_VelvetCurtain_STEMS/AlexanderRoss_VelvetCurtain_STEM_07.wav"
+            ],
+            "target_stems": [
+                "AlexanderRoss_VelvetCurtain/AlexanderRoss_VelvetCurtain_STEMS/AlexanderRoss_VelvetCurtain_STEM_09.wav",
+                "AlexanderRoss_VelvetCurtain/AlexanderRoss_VelvetCurtain_STEMS/AlexanderRoss_VelvetCurtain_STEM_06.wav"
+            ]
+        },
+        {
+            "mix_path": "ClaraBerryAndWooldog_TheBadGuys/ClaraBerryAndWooldog_TheBadGuys_MIX.wav",
+            "other_stems": [
+                "ClaraBerryAndWooldog_TheBadGuys/ClaraBerryAndWooldog_TheBadGuys_STEMS/ClaraBerryAndWooldog_TheBadGuys_STEM_01.wav"
+            ],
+            "target_stems": [
+                "ClaraBerryAndWooldog_TheBadGuys/ClaraBerryAndWooldog_TheBadGuys_STEMS/ClaraBerryAndWooldog_TheBadGuys_STEM_02.wav"
+            ]
+        },
+        {
+            "mix_path": "ClaraBerryAndWooldog_Boys/ClaraBerryAndWooldog_Boys_MIX.wav",
+            "other_stems": [
+                "ClaraBerryAndWooldog_Boys/ClaraBerryAndWooldog_Boys_STEMS/ClaraBerryAndWooldog_Boys_STEM_08.wav",
+                "ClaraBerryAndWooldog_Boys/ClaraBerryAndWooldog_Boys_STEMS/ClaraBerryAndWooldog_Boys_STEM_09.wav",
+                "ClaraBerryAndWooldog_Boys/ClaraBerryAndWooldog_Boys_STEMS/ClaraBerryAndWooldog_Boys_STEM_01.wav",
+                "ClaraBerryAndWooldog_Boys/ClaraBerryAndWooldog_Boys_STEMS/ClaraBerryAndWooldog_Boys_STEM_02.wav",
+                "ClaraBerryAndWooldog_Boys/ClaraBerryAndWooldog_Boys_STEMS/ClaraBerryAndWooldog_Boys_STEM_03.wav",
+                "ClaraBerryAndWooldog_Boys/ClaraBerryAndWooldog_Boys_STEMS/ClaraBerryAndWooldog_Boys_STEM_04.wav",
+                "ClaraBerryAndWooldog_Boys/ClaraBerryAndWooldog_Boys_STEMS/ClaraBerryAndWooldog_Boys_STEM_05.wav"
+            ],
+            "target_stems": [
+                "ClaraBerryAndWooldog_Boys/ClaraBerryAndWooldog_Boys_STEMS/ClaraBerryAndWooldog_Boys_STEM_06.wav",
+                "ClaraBerryAndWooldog_Boys/ClaraBerryAndWooldog_Boys_STEMS/ClaraBerryAndWooldog_Boys_STEM_07.wav"
+            ]
+        }
+    ]
+}

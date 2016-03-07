@@ -1,0 +1,23 @@
+diff -r dk_dl_toolbox/NN/nnff.m rasmusbergpalm-DeepLearnToolbox-9faf641/NN/nnff.m
+17c17
+<                 nn.a{i} = sigm(nn.a{i - 1} * nn.W{i - 1}', 6);
+---
+>                 nn.a{i} = sigm(nn.a{i - 1} * nn.W{i - 1}');
+42c42
+<             nn.a{n} = sigm(nn.a{n - 1} * nn.W{n - 1}', 0);
+---
+>             nn.a{n} = sigm(nn.a{n - 1} * nn.W{n - 1}');
+diff -r dk_dl_toolbox/util/sigm.m rasmusbergpalm-DeepLearnToolbox-9faf641/util/sigm.m
+1,7c1,3
+< %function X = sigm(P)
+< %    X = 1./(1+exp(-P));
+< %end
+< 
+< function X = sigm(P, bias)
+< X = 1./(1+exp(-P + bias));
+< end
+---
+> function X = sigm(P)
+>     X = 1./(1+exp(-P));
+> end
+\ No newline at end of file
